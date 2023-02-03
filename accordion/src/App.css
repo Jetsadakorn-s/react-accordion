@@ -4,3 +4,37 @@ main{
     justify-content: center;
     align-items: center;
 }
+.container{
+    width: 90vw;
+    margin: 5rem auto;
+    background: #fff;
+    padding: 2rem 2rem;
+    max-width:920px;
+}
+.btn{
+    background: transparent;
+    border: transparent;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: purple;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 1rem;
+    align-self: center;
+    min-width: 2rem;
+}
+.content{
+    padding: 1rem 1.5rem;
+    border: 2px solid #f0f0f0;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+.content header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
